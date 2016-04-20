@@ -1,0 +1,47 @@
+//
+//  工作管理软件.pch
+//  工作计划管理软件
+//
+//  Created by 杨瑷惠 on 16/1/31.
+//  Copyright © 2016年 杨瑷惠. All rights reserved.
+//
+
+#ifndef _______pch
+#define _______pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "MJExtension.h"
+
+
+#ifdef DEBUG // 处于开发阶段
+#define YAHLog(...) NSLog(__VA_ARGS__)
+#else // 处于发布阶段
+#define YAHLog(...)
+#endif
+
+
+
+#define YAHGoallist [YAHGoal mj_objectArrayWithKeyValuesArray:[[NSMutableArray alloc] initWithContentsOfFile:[[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES)objectAtIndex:0]stringByAppendingPathComponent:@"test.plist"]]]
+
+
+#define YAHAlwaysDolist [AlwaysDoGoal mj_objectArrayWithKeyValuesArray:[[NSMutableArray alloc] initWithContentsOfFile:[[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES)objectAtIndex:0]stringByAppendingPathComponent:@"AlwaysDo.plist"]]]
+
+
+#define YAHSleeplist [SleepPlan mj_objectArrayWithKeyValuesArray:[[NSMutableArray alloc] initWithContentsOfFile:[[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES)objectAtIndex:0]stringByAppendingPathComponent:@"SleepPlan.plist"]]]
+
+
+
+// RGB颜色
+#define YAHColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// 随机色
+#define YAHRandomColor YAHColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#define YAHGlobalBg YAHColor(223, 223, 223)
+
+#endif /* _______pch */

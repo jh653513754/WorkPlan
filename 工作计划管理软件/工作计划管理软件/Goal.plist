@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>G_tag</key>
+		<string>工作</string>
+		<key>G_remarks</key>
+		<string>这个会议很重要，必须参加的</string>
+		<key>G_endtime</key>
+		<string>10:40</string>
+		<key>G_starttime</key>
+		<string>10:00</string>
+		<key>G_name</key>
+		<string>明天十点有个重要的商谈会议！</string>
+	</dict>
+	<dict>
+		<key>G_tag</key>
+		<string>生活</string>
+		<key>G_remarks</key>
+		<string>会很好地去执行！我要减肥的！</string>
+		<key>G_endtime</key>
+		<string>7:20</string>
+		<key>G_starttime</key>
+		<string>7:00</string>
+		<key>G_name</key>
+		<string>早上跑步20分钟</string>
+	</dict>
+</array>
+</plist>

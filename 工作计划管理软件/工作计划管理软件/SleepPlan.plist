@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>S_chooseWhen</key>
+		<string>星期日</string>
+		<key>Name</key>
+		<string>明天要上班，睡早点</string>
+		<key>S_beginTime</key>
+		<string>22：00</string>
+		<key>S_endTime</key>
+		<string>06：40</string>
+	</dict>
+	<dict>
+		<key>S_chooseWhen</key>
+		<string>星期二，星期四</string>
+		<key>Name</key>
+		<string>定期做工作汇总表格，晚睡一点</string>
+		<key>S_beginTime</key>
+		<string>23：20</string>
+		<key>S_endTime</key>
+		<string>06：40</string>
+	</dict>
+	<dict>
+		<key>S_chooseWhen</key>
+		<string>星期一，星期三</string>
+		<key>Name</key>
+		<string>正常地作息</string>
+		<key>S_beginTime</key>
+		<string>22：50</string>
+		<key>S_endTime</key>
+		<string>06：40</string>
+	</dict>
+</array>
+</plist>

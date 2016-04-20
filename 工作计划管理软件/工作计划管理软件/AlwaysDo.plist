@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>早上喝水</string>
+		<key>deteil</key>
+		<string>按时补充水分</string>
+		<key>beginTime</key>
+		<string>7：00</string>
+		<key>endTime</key>
+		<string>7：03</string>
+	</dict>
+	<dict>
+		<key>endTime</key>
+		<string>13：20</string>
+		<key>Name</key>
+		<string>中午小眯一会儿</string>
+		<key>deteil</key>
+		<string>养精蓄锐</string>
+		<key>beginTime</key>
+		<string>13：00</string>
+	</dict>
+	<dict>
+		<key>deteil</key>
+		<string>记录今天的工作内容</string>
+		<key>Name</key>
+		<string>写工作日记</string>
+		<key>endTime</key>
+		<string>16：30</string>
+		<key>beginTime</key>
+		<string>16：20</string>
+	</dict>
+	<dict>
+		<key>deteil</key>
+		<string>陪父母聊聊天</string>
+		<key>Name</key>
+		<string>打个电话问候爸爸妈妈</string>
+		<key>endTime</key>
+		<string>20：15</string>
+		<key>beginTime</key>
+		<string>20：00</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>列好第二天的工作计划</string>
+		<key>deteil</key>
+		<string>方便更好地工作</string>
+		<key>beginTime</key>
+		<string>21：40</string>
+		<key>endTime</key>
+		<string>22：00</string>
+	</dict>
+</array>
+</plist>
