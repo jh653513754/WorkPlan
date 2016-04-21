@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		906EB0BA1CC90C5F00874AA8 /* TimeNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 906EB0B91CC90C5F00874AA8 /* TimeNotification.m */; };
 		971741731CC3D1E400A18E19 /* AlwaysDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971741711CC3D1E400A18E19 /* AlwaysDoViewController.m */; };
 		971741741CC3D1E400A18E19 /* AlwaysDoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971741721CC3D1E400A18E19 /* AlwaysDoViewController.xib */; };
 		971741781CC3D21500A18E19 /* MakeSleepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 971741761CC3D21500A18E19 /* MakeSleepViewController.m */; };
@@ -109,6 +110,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		906EB0B81CC90C5F00874AA8 /* TimeNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeNotification.h; sourceTree = "<group>"; };
+		906EB0B91CC90C5F00874AA8 /* TimeNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeNotification.m; sourceTree = "<group>"; };
 		971741701CC3D1E400A18E19 /* AlwaysDoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlwaysDoViewController.h; sourceTree = "<group>"; };
 		971741711CC3D1E400A18E19 /* AlwaysDoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlwaysDoViewController.m; sourceTree = "<group>"; };
 		971741721CC3D1E400A18E19 /* AlwaysDoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlwaysDoViewController.xib; sourceTree = "<group>"; };
@@ -167,12 +170,12 @@
 		972BC9241CB684F800182182 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		972BC9251CB684F800182182 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		972BC9261CB684F800182182 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		972BC9311CB690F300182182 /* YAHLogoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAHLogoTableViewController.h; sourceTree = "<group>"; };
-		972BC9321CB690F300182182 /* YAHLogoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAHLogoTableViewController.m; sourceTree = "<group>"; };
-		972BC9331CB690F300182182 /* YAHLogoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YAHLogoTableViewController.xib; path = ../controller/YAHLogoTableViewController.xib; sourceTree = "<group>"; };
-		972BC9361CBB619300182182 /* YAHLogoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YAHLogoTableViewCell.xib; sourceTree = "<group>"; };
-		972BC9381CBB656800182182 /* YAHLogoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAHLogoTableViewCell.h; sourceTree = "<group>"; };
-		972BC9391CBB656800182182 /* YAHLogoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAHLogoTableViewCell.m; sourceTree = "<group>"; };
+		972BC9311CB690F300182182 /* YAHLogoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YAHLogoTableViewController.h; path = ../controller/YAHLogoTableViewController.h; sourceTree = "<group>"; };
+		972BC9321CB690F300182182 /* YAHLogoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YAHLogoTableViewController.m; path = ../controller/YAHLogoTableViewController.m; sourceTree = "<group>"; };
+		972BC9331CB690F300182182 /* YAHLogoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YAHLogoTableViewController.xib; sourceTree = "<group>"; };
+		972BC9361CBB619300182182 /* YAHLogoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YAHLogoTableViewCell.xib; path = ../../view/YAHLogoTableViewCell.xib; sourceTree = "<group>"; };
+		972BC9381CBB656800182182 /* YAHLogoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YAHLogoTableViewCell.h; path = ../YAHLogoTableViewCell.h; sourceTree = "<group>"; };
+		972BC9391CBB656800182182 /* YAHLogoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YAHLogoTableViewCell.m; path = ../YAHLogoTableViewCell.m; sourceTree = "<group>"; };
 		972BC93C1CBB997600182182 /* XLMenuViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMenuViewCell.h; sourceTree = "<group>"; };
 		972BC93D1CBB997600182182 /* XLMenuViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLMenuViewCell.m; sourceTree = "<group>"; };
 		972BC93E1CBB997600182182 /* XLPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPopMenuView.h; sourceTree = "<group>"; };
@@ -205,7 +208,7 @@
 		97EC1FDA1C5DF030007A8D67 /* YAHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YAHAppDelegate.m; path = ../../../YAHAppDelegate.m; sourceTree = "<group>"; };
 		97EC1FE21C5DF030007A8D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97EC1FE51C5DF030007A8D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97EC1FE71C5DF030007A8D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EC1FE71C5DF030007A8D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Info.plist; sourceTree = "<group>"; };
 		97EC1FEC1C5DF030007A8D67 /* 工作计划管理软件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "工作计划管理软件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97EC1FF01C5DF030007A8D67 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
 		97EC1FF21C5DF030007A8D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -248,7 +251,7 @@
 		97EC20611C5E04F4007A8D67 /* YAHOwnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAHOwnViewController.m; sourceTree = "<group>"; };
 		97EC20631C5E052E007A8D67 /* YAHLogoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAHLogoViewController.h; sourceTree = "<group>"; };
 		97EC20641C5E052E007A8D67 /* YAHLogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAHLogoViewController.m; sourceTree = "<group>"; };
-		97EC20661C5E06F6007A8D67 /* 工作管理软件.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "工作管理软件.pch"; sourceTree = "<group>"; };
+		97EC20661C5E06F6007A8D67 /* 工作管理软件.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "工作管理软件.pch"; path = "../../../工作管理软件.pch"; sourceTree = "<group>"; };
 		97EC20681C5E08B8007A8D67 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		97EC20691C5E08B8007A8D67 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		97EC206B1C5E08D8007A8D67 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
@@ -282,10 +285,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9717417A1CC45FB000A18E19 /* 分页控制器 */ = {
+		906EB0B71CC90C1800874AA8 /* Notification(时间通知) */ = {
 			isa = PBXGroup;
 			children = (
-				971741A61CC473E400A18E19 /* 自定义cell */,
+				906EB0B81CC90C5F00874AA8 /* TimeNotification.h */,
+				906EB0B91CC90C5F00874AA8 /* TimeNotification.m */,
+			);
+			name = "Notification(时间通知)";
+			sourceTree = "<group>";
+		};
+		906EB0BB1CC90F0F00874AA8 /* 标签控制器 */ = {
+			isa = PBXGroup;
+			children = (
 				971741801CC461CC00A18E19 /* HJMenuView.h */,
 				971741811CC461CC00A18E19 /* HJMenuView.m */,
 				971741821CC461CC00A18E19 /* HJMenuView.xib */,
@@ -302,20 +313,85 @@
 				9717418F1CC461CC00A18E19 /* UIView+HJFrame.h */,
 				971741901CC461CC00A18E19 /* UIView+HJFrame.m */,
 			);
-			path = "分页控制器";
+			name = "标签控制器";
+			path = "classes/Logo/controller/分页控制器";
 			sourceTree = "<group>";
 		};
-		971741A61CC473E400A18E19 /* 自定义cell */ = {
+		906EB0BC1CC90F2900874AA8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				972BC9681CBE35B300182182 /* TagView */,
+				972BC9641CBE219700182182 /* FDAlertView */,
+				972BC95D1CBE217400182182 /* CycleScollview */,
+				972BC9111CB684F800182182 /* MJExtension */,
+				97EC202F1C5E009A007A8D67 /* AFNetworking */,
+				972BC93B1CBB997600182182 /* PopMenuView */,
+				906EB0BB1CC90F0F00874AA8 /* 标签控制器 */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		906EB0BD1CC9112800874AA8 /* 自定义任务 */ = {
+			isa = PBXGroup;
+			children = (
+				972BC9561CBB9D1700182182 /* customViewController.h */,
+				972BC9571CBB9D1700182182 /* customViewController.m */,
+				972BC9581CBB9D1700182182 /* customViewController.xib */,
+			);
+			name = "自定义任务";
+			sourceTree = "<group>";
+		};
+		906EB0BE1CC9113D00874AA8 /* 早睡早起 */ = {
+			isa = PBXGroup;
+			children = (
+				971741751CC3D21500A18E19 /* MakeSleepViewController.h */,
+				971741761CC3D21500A18E19 /* MakeSleepViewController.m */,
+				971741771CC3D21500A18E19 /* MakeSleepViewController.xib */,
+			);
+			name = "早睡早起";
+			sourceTree = "<group>";
+		};
+		906EB0BF1CC9114500874AA8 /* 习惯性任务 */ = {
+			isa = PBXGroup;
+			children = (
+				971741701CC3D1E400A18E19 /* AlwaysDoViewController.h */,
+				971741711CC3D1E400A18E19 /* AlwaysDoViewController.m */,
+				971741721CC3D1E400A18E19 /* AlwaysDoViewController.xib */,
+			);
+			name = "习惯性任务";
+			sourceTree = "<group>";
+		};
+		906EB0C01CC911BF00874AA8 /* 起睡早起(cell) */ = {
 			isa = PBXGroup;
 			children = (
 				971741A11CC4739600A18E19 /* MiddleTableViewCell.h */,
 				971741A21CC4739600A18E19 /* MiddleTableViewCell.m */,
 				971741A31CC4739600A18E19 /* MiddleTableViewCell.xib */,
+			);
+			name = "起睡早起(cell)";
+			path = "../controller/分页控制器";
+			sourceTree = "<group>";
+		};
+		906EB0C11CC911E400874AA8 /* 习惯性(cell) */ = {
+			isa = PBXGroup;
+			children = (
 				971741A71CC4741100A18E19 /* RightTableViewCell.h */,
 				971741A81CC4741100A18E19 /* RightTableViewCell.m */,
 				971741A91CC4741100A18E19 /* RightTableViewCell.xib */,
 			);
-			name = "自定义cell";
+			name = "习惯性(cell)";
+			path = "../controller/分页控制器";
+			sourceTree = "<group>";
+		};
+		906EB0C21CC9121D00874AA8 /* 自定义(cell) */ = {
+			isa = PBXGroup;
+			children = (
+				972BC9381CBB656800182182 /* YAHLogoTableViewCell.h */,
+				972BC9391CBB656800182182 /* YAHLogoTableViewCell.m */,
+				972BC9361CBB619300182182 /* YAHLogoTableViewCell.xib */,
+			);
+			name = "自定义(cell)";
+			path = "../controller/分页控制器";
 			sourceTree = "<group>";
 		};
 		972BC9111CB684F800182182 /* MJExtension */ = {
@@ -343,7 +419,8 @@
 				972BC9251CB684F800182182 /* NSString+MJExtension.h */,
 				972BC9261CB684F800182182 /* NSString+MJExtension.m */,
 			);
-			path = MJExtension;
+			name = MJExtension;
+			path = classes/Main/Lib/MJExtension;
 			sourceTree = "<group>";
 		};
 		972BC93B1CBB997600182182 /* PopMenuView */ = {
@@ -358,7 +435,8 @@
 				972BC9421CBB997600182182 /* XLPopMenuViewSingleton.h */,
 				972BC9431CBB997600182182 /* XLPopMenuViewSingleton.m */,
 			);
-			path = PopMenuView;
+			name = PopMenuView;
+			path = classes/Logo/view/PopMenuView;
 			sourceTree = "<group>";
 		};
 		972BC9481CBB9BE200182182 /* Images */ = {
@@ -377,15 +455,9 @@
 		972BC9551CBB9C8D00182182 /* createPlan */ = {
 			isa = PBXGroup;
 			children = (
-				972BC9561CBB9D1700182182 /* customViewController.h */,
-				972BC9571CBB9D1700182182 /* customViewController.m */,
-				972BC9581CBB9D1700182182 /* customViewController.xib */,
-				971741701CC3D1E400A18E19 /* AlwaysDoViewController.h */,
-				971741711CC3D1E400A18E19 /* AlwaysDoViewController.m */,
-				971741721CC3D1E400A18E19 /* AlwaysDoViewController.xib */,
-				971741751CC3D21500A18E19 /* MakeSleepViewController.h */,
-				971741761CC3D21500A18E19 /* MakeSleepViewController.m */,
-				971741771CC3D21500A18E19 /* MakeSleepViewController.xib */,
+				906EB0BF1CC9114500874AA8 /* 习惯性任务 */,
+				906EB0BE1CC9113D00874AA8 /* 早睡早起 */,
+				906EB0BD1CC9112800874AA8 /* 自定义任务 */,
 			);
 			path = createPlan;
 			sourceTree = "<group>";
@@ -398,7 +470,8 @@
 				972BC9601CBE217400182182 /* RBCustomDatePickerView.h */,
 				972BC9611CBE217400182182 /* RBCustomDatePickerView.m */,
 			);
-			path = CycleScollview;
+			name = CycleScollview;
+			path = classes/Logo/other/CycleScollview;
 			sourceTree = "<group>";
 		};
 		972BC9641CBE219700182182 /* FDAlertView */ = {
@@ -407,7 +480,8 @@
 				972BC9651CBE219700182182 /* FDAlertView.h */,
 				972BC9661CBE219700182182 /* FDAlertView.m */,
 			);
-			path = FDAlertView;
+			name = FDAlertView;
+			path = classes/Logo/other/FDAlertView;
 			sourceTree = "<group>";
 		};
 		972BC9681CBE35B300182182 /* TagView */ = {
@@ -416,7 +490,8 @@
 				972BC9691CBE35B300182182 /* TagView.h */,
 				972BC96A1CBE35B300182182 /* TagView.m */,
 			);
-			path = TagView;
+			name = TagView;
+			path = classes/Logo/other/TagView;
 			sourceTree = "<group>";
 		};
 		97EC1FCA1C5DF02F007A8D67 = {
@@ -442,7 +517,9 @@
 		97EC1FD51C5DF02F007A8D67 /* 工作计划管理软件 */ = {
 			isa = PBXGroup;
 			children = (
+				906EB0BC1CC90F2900874AA8 /* lib */,
 				97EC200A1C5DF690007A8D67 /* classes */,
+				97EC20141C5DF690007A8D67 /* other */,
 				97EC1FD61C5DF02F007A8D67 /* Supporting Files */,
 			);
 			path = "工作计划管理软件";
@@ -452,10 +529,8 @@
 			isa = PBXGroup;
 			children = (
 				972BC9481CBB9BE200182182 /* Images */,
-				97EC1FE71C5DF030007A8D67 /* Info.plist */,
 				97EC1FE21C5DF030007A8D67 /* Assets.xcassets */,
 				97EC1FE41C5DF030007A8D67 /* LaunchScreen.storyboard */,
-				97EC20661C5E06F6007A8D67 /* 工作管理软件.pch */,
 				972BC9041CB3AB1200182182 /* Goal.plist */,
 				971741AC1CC4BA8200A18E19 /* AlwaysDo.plist */,
 				971741AE1CC4BA9A00A18E19 /* SleepPlan.plist */,
@@ -484,9 +559,9 @@
 		97EC200A1C5DF690007A8D67 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				906EB0B71CC90C1800874AA8 /* Notification(时间通知) */,
 				97EC204C1C5E0282007A8D67 /* 个人 */,
 				97EC200B1C5DF690007A8D67 /* Logo */,
-				97EC20101C5DF690007A8D67 /* Main */,
 				97EC20161C5DF690007A8D67 /* 动态 */,
 				97EC201B1C5DF690007A8D67 /* 发现 */,
 				97EC20201C5DF690007A8D67 /* 时间轴 */,
@@ -499,7 +574,6 @@
 			children = (
 				97EC200C1C5DF690007A8D67 /* controller */,
 				97EC200D1C5DF690007A8D67 /* model */,
-				97EC200E1C5DF690007A8D67 /* other */,
 				97EC200F1C5DF690007A8D67 /* view */,
 			);
 			path = Logo;
@@ -508,14 +582,10 @@
 		97EC200C1C5DF690007A8D67 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				9717417A1CC45FB000A18E19 /* 分页控制器 */,
 				972BC9551CBB9C8D00182182 /* createPlan */,
 				97EC20631C5E052E007A8D67 /* YAHLogoViewController.h */,
 				97EC20641C5E052E007A8D67 /* YAHLogoViewController.m */,
-				972BC9311CB690F300182182 /* YAHLogoTableViewController.h */,
-				972BC9321CB690F300182182 /* YAHLogoTableViewController.m */,
-				972BC9381CBB656800182182 /* YAHLogoTableViewCell.h */,
-				972BC9391CBB656800182182 /* YAHLogoTableViewCell.m */,
+				972BC9331CB690F300182182 /* YAHLogoTableViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -533,38 +603,17 @@
 			path = model;
 			sourceTree = "<group>";
 		};
-		97EC200E1C5DF690007A8D67 /* other */ = {
-			isa = PBXGroup;
-			children = (
-				972BC9681CBE35B300182182 /* TagView */,
-				972BC9641CBE219700182182 /* FDAlertView */,
-				972BC95D1CBE217400182182 /* CycleScollview */,
-			);
-			path = other;
-			sourceTree = "<group>";
-		};
 		97EC200F1C5DF690007A8D67 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				972BC93B1CBB997600182182 /* PopMenuView */,
-				972BC9331CB690F300182182 /* YAHLogoTableViewController.xib */,
+				906EB0C21CC9121D00874AA8 /* 自定义(cell) */,
+				906EB0C11CC911E400874AA8 /* 习惯性(cell) */,
+				906EB0C01CC911BF00874AA8 /* 起睡早起(cell) */,
+				972BC9311CB690F300182182 /* YAHLogoTableViewController.h */,
+				972BC9321CB690F300182182 /* YAHLogoTableViewController.m */,
 				972BC90A1CB3B84A00182182 /* YAHLogoViewController.xib */,
-				972BC9361CBB619300182182 /* YAHLogoTableViewCell.xib */,
 			);
 			path = view;
-			sourceTree = "<group>";
-		};
-		97EC20101C5DF690007A8D67 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				97EC20671C5E0846007A8D67 /* category */,
-				97EC20111C5DF690007A8D67 /* controller */,
-				97EC20121C5DF690007A8D67 /* Lib */,
-				97EC20131C5DF690007A8D67 /* model */,
-				97EC20141C5DF690007A8D67 /* other */,
-				97EC20151C5DF690007A8D67 /* view */,
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		97EC20111C5DF690007A8D67 /* controller */ = {
@@ -577,34 +626,34 @@
 				97EC20541C5E033C007A8D67 /* YAHNavigationViewController.h */,
 				97EC20551C5E033C007A8D67 /* YAHNavigationViewController.m */,
 			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		97EC20121C5DF690007A8D67 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				972BC9111CB684F800182182 /* MJExtension */,
-				97EC202F1C5E009A007A8D67 /* AFNetworking */,
-			);
-			path = Lib;
+			name = controller;
+			path = ../controller;
 			sourceTree = "<group>";
 		};
 		97EC20131C5DF690007A8D67 /* model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = model;
+			name = model;
+			path = ../model;
 			sourceTree = "<group>";
 		};
 		97EC20141C5DF690007A8D67 /* other */ = {
 			isa = PBXGroup;
 			children = (
+				97EC1FE71C5DF030007A8D67 /* Info.plist */,
+				97EC20661C5E06F6007A8D67 /* 工作管理软件.pch */,
+				97EC20671C5E0846007A8D67 /* category */,
+				97EC20111C5DF690007A8D67 /* controller */,
+				97EC20131C5DF690007A8D67 /* model */,
+				97EC20151C5DF690007A8D67 /* view */,
 				972BC96C1CC0847800182182 /* Foundation+Log.m */,
 				97EC1FD91C5DF02F007A8D67 /* YAHAppDelegate.h */,
 				97EC1FDA1C5DF030007A8D67 /* YAHAppDelegate.m */,
 				97EC1FD71C5DF02F007A8D67 /* main.m */,
 			);
-			path = other;
+			name = other;
+			path = classes/Main/other;
 			sourceTree = "<group>";
 		};
 		97EC20151C5DF690007A8D67 /* view */ = {
@@ -614,7 +663,8 @@
 				97EC22D91C5E151B007A8D67 /* YAHSearchBar.h */,
 				97EC22DA1C5E151B007A8D67 /* YAHSearchBar.m */,
 			);
-			path = view;
+			name = view;
+			path = ../view;
 			sourceTree = "<group>";
 		};
 		97EC20161C5DF690007A8D67 /* 动态 */ = {
@@ -763,7 +813,8 @@
 				97EC20411C5E009A007A8D67 /* AFURLSessionManager.h */,
 				97EC20421C5E009A007A8D67 /* AFURLSessionManager.m */,
 			);
-			path = AFNetworking;
+			name = AFNetworking;
+			path = classes/Main/Lib/AFNetworking;
 			sourceTree = "<group>";
 		};
 		97EC204C1C5E0282007A8D67 /* 个人 */ = {
@@ -815,7 +866,8 @@
 				97EC20681C5E08B8007A8D67 /* UIBarButtonItem+Extension.h */,
 				97EC20691C5E08B8007A8D67 /* UIBarButtonItem+Extension.m */,
 			);
-			path = category;
+			name = category;
+			path = ../category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1011,6 +1063,7 @@
 				97EC20451C5E009A007A8D67 /* AFHTTPSessionManager.m in Sources */,
 				971741941CC461CC00A18E19 /* HJMenuView.m in Sources */,
 				972BC9101CB6820A00182182 /* YAHGoal.m in Sources */,
+				906EB0BA1CC90C5F00874AA8 /* TimeNotification.m in Sources */,
 				9717419B1CC461CC00A18E19 /* HJTestViewController.m in Sources */,
 				972BC92D1CB684F800182182 /* NSObject+MJCoding.m in Sources */,
 				972BC93A1CBB656800182182 /* YAHLogoTableViewCell.m in Sources */,

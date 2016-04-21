@@ -11,6 +11,7 @@
 #import "RBCustomDatePickerView.h"
 #import "TagView.h"
 #import "YAHGoal.h"
+#import "TimeNotification.h"
 @interface customViewController ()<sendTheValueDelegate,UITextFieldDelegate,UITextViewDelegate>
 
 //时间开始的label
@@ -150,6 +151,10 @@
     YAHLog(@"=======%@", data1);
     YAHLog(@"%@",paths);
     [self showtags];
+    
+    [TimeNotification registerLocalNotification:10];
+    
+    
     
 }
 
